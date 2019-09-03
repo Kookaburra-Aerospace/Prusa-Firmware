@@ -398,6 +398,10 @@
 #define FLEX_PREHEAT_HPB_TEMP 50
 #define FLEX_PREHEAT_FAN_SPEED 0
 
+#define CARBON_PREHEAT_HOTEND_TEMP 300
+#define CARBON_PREHEAT_HPB_TEMP 45
+#define CARBON_PREHEAT_FAN_SPEED 0
+
 /*------------------------------------
  THERMISTORS SETTINGS
  *------------------------------------*/
