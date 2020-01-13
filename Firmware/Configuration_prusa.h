@@ -44,7 +44,7 @@
 #define Y_MIN_ENDSTOP_INVERTING 0 // set to 1 to invert the logic of the endstop.
 #define Z_MIN_ENDSTOP_INVERTING 0 // set to 1 to invert the logic of the endstop.
 
-// Direction inverting
+// Direction invertingc
 #define INVERT_X_DIR 1    // for Mendel set to 0, for Orca set to 1
 #define INVERT_Y_DIR 0    // for Mendel set to 1, for Orca set to 0
 #define INVERT_Z_DIR 1     // for Mendel set to 0, for Orca set to 1
@@ -256,8 +256,8 @@
 #define TMC2130_SG_THRS_E       3     // stallguard sensitivity for E axis
 
 //new settings is possible for vsense = 1, running current value > 31 set vsense to zero and shift both currents by 1 bit right (Z axis only)
-#define TMC2130_CURRENTS_H {16, 20, 35, 30}  // default holding currents for all axes
-#define TMC2130_CURRENTS_R {16, 20, 35, 30}  // default running currents for all axes
+#define TMC2130_CURRENTS_H {30, 30, 35, 30}  // default holding currents for all axes
+#define TMC2130_CURRENTS_R {30, 30, 35, 30}  // default running currents for all axes
 #define TMC2130_UNLOAD_CURRENT_R 12			 // lowe current for M600 to protect filament sensor 
 
 #define TMC2130_STEALTH_Z
