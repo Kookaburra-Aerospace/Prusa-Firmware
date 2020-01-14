@@ -250,14 +250,14 @@
 #define TMC2130_TCOOLTHRS_E 500       // TCOOLTHRS - coolstep treshold
 
 #define TMC2130_SG_HOMING       1     // stallguard homing
-#define TMC2130_SG_THRS_X       3     // stallguard sensitivity for X axis
-#define TMC2130_SG_THRS_Y       3     // stallguard sensitivity for Y axis
-#define TMC2130_SG_THRS_Z       4     // stallguard sensitivity for Z axis
+#define TMC2130_SG_THRS_X       5     // stallguard sensitivity for X axis
+#define TMC2130_SG_THRS_Y       5     // stallguard sensitivity for Y axis
+#define TMC2130_SG_THRS_Z       5     // stallguard sensitivity for Z axis
 #define TMC2130_SG_THRS_E       3     // stallguard sensitivity for E axis
 
 //new settings is possible for vsense = 1, running current value > 31 set vsense to zero and shift both currents by 1 bit right (Z axis only)
-#define TMC2130_CURRENTS_H {30, 30, 35, 30}  // default holding currents for all axes
-#define TMC2130_CURRENTS_R {30, 30, 35, 30}  // default running currents for all axes
+#define TMC2130_CURRENTS_H {26, 26, 35, 30}  // default holding currents for all axes
+#define TMC2130_CURRENTS_R {26, 26, 35, 30}  // default running currents for all axes
 #define TMC2130_UNLOAD_CURRENT_R 12			 // lowe current for M600 to protect filament sensor 
 
 #define TMC2130_STEALTH_Z
